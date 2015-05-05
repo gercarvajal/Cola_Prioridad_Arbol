@@ -23,11 +23,10 @@ int main()
 	Cola_AB colprioAB;
 	colprioAB=malloc(sizeof(cola_AB));
 	
-	inicializa_colaAB(colprioAB);
-	esVacia(colprioAB);
+	inicializa_colaAB(colprioAB);  //gerardo
+	esVacia(colprioAB);     //yerko
 	agregaDato(colprioAB);
 	sacaDato(colprioAB);
-	mostrarAB(colprioAB);
-	recorrerAB(colprioAB);
+	mostrarAB(colprioAB);    //diego
 	return 0;
 }
