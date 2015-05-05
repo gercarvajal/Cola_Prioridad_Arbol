@@ -13,5 +13,5 @@
 //a continucion se crea la estructura cola Arbol//
 
 typedef struct Nodo_Cola_AB {
-int unDato,tam,pto_insercion;
+int Arreglo_AB,tam,pto_insercion;
 }Cola_AB;
